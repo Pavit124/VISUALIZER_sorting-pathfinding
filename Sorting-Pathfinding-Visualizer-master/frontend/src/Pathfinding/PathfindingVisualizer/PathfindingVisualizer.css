@@ -1,0 +1,132 @@
+@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+
+.pathfinding-visualizer {
+  overflow: auto;
+  height: auto;
+  color: white;
+  font-family: Share Tech Mono;
+}
+
+.header {
+  position: relative;
+  background-color: #B2A4FF;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.header span {
+  font-size: 20px;
+  font-weight: 900;
+  margin: 0 20px;
+}
+
+.dropdown {
+  background-color: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  padding: 10px 10px;
+  transition: 1s;
+  color: white;
+  transition: 1s;
+  outline: none;
+  margin: 0 30px;
+}
+
+.dropdown:focus {
+  outline: none;
+}
+
+.dropdown:hover {
+  cursor: pointer;
+  background-color:#554994;
+  transition: 1s;
+}
+
+.buttons {
+  background-color: inherit;
+  margin: 5px 30px;
+  border: none;
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  padding: 10px 10px;
+  transition: 1s;
+}
+
+.buttons:hover {
+  background-color: #554994;
+  cursor: pointer;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.ddspeed {
+  display: inline-block;
+}
+
+#speed {
+  margin: 0;
+}
+
+.startstop {
+  background-color: #554994;
+  padding: 10px 30px;
+  margin: 0 30px;
+  border-radius: 5px;
+}
+
+.startstop:hover {
+  background-color:#554994;
+}
+
+.symbols {
+  display: relative;
+  padding: 10px 0;
+  background-color: black;
+  font-size: 20px;
+  color: white;
+}
+
+.symbols span {
+  margin: 20px;
+}
+
+.desc {
+  display: relative;
+  color: white;
+  background-color: black;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.mainSection {
+  display: flex;
+  flex-direction: row;
+}
+
+.info {
+  width: 30vh;
+  background-color: #b2a4ff;
+  margin-right: 10px;
+  height: 640px;
+  overflow: auto;
+}
+
+.info-head {
+  margin-top: 10px;
+  font-weight: 900;
+}
+
+.divide {
+  border: 2px solid black;
+  margin: 10px 0;
+}
+
+.grid {
+  margin: 10px 0;
+}

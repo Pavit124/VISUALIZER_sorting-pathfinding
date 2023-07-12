@@ -1,0 +1,11 @@
+.sort-home {
+
+  display: flex;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .sort-home {
+    flex-direction: column;
+  }
+}
